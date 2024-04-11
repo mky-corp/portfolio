@@ -1,12 +1,12 @@
-# Positivus - Digital Marketing Agency Landing Page
+# MKYCorp - Digital Marketing Agency Landing Page
 
-Introducing "Positivus" - a stunning and versatile Astro theme designed for digital marketing agencies.
+Introducing "MKYCorp" - a stunning and versatile Astro theme designed for digital marketing agencies.
 
 Built with clean, modern aesthetics and leveraging the power of Astro and Tailwind, Positivus empowers you to craft a captivating website that showcases your agency's expertise and fosters trust with potential clients.
 
-[![Static Badge](https://img.shields.io/badge/UI%2FUX-Olga-blue)](https://www.figma.com/@olgaaverchenko) [![View Demo](https://img.shields.io/badge/Develop-Manul_Thanura-red)](https://lk.linkedin.com/in/manulthanura)
+<!-- [![Static Badge](https://img.shields.io/badge/UI%2FUX-Olga-blue)](https://www.figma.com/@olgaaverchenko) [![View Demo](https://img.shields.io/badge/Develop-Manul_Thanura-red)](https://lk.linkedin.com/in/manulthanura)
 [![Static Badge](https://img.shields.io/badge/View_Demo-green)](https://positivustheme.vercel.app)
-[![Static Badge](https://img.shields.io/badge/Astro-orange)](https://astro.build/)
+[![Static Badge](https://img.shields.io/badge/Astro-orange)](https://astro.build/)  
 
 ![Cover](./public/cover.png)
 
@@ -51,4 +51,4 @@ Feel free to check [Astro documentation](https://docs.astro.build) or jump into 
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details-->

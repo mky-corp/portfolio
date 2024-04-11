@@ -1,7 +1,9 @@
 ---
+import { getRelativeLocaleUrl } from "astro:i18n";
 import Container from "@components/Container.astro";
 import Layout from "@layouts/Layout.astro";
 import Team from "@components/Team.astro";
+const aboutURL = getRelativeLocaleUrl("es", "nosotros");
 ---
 
 <Layout title="Welcome to My site">

@@ -1,56 +1,62 @@
 [
-    {
-        "id": 1,
-        "name1": "Search engine",
-        "name2": "optimization",
-        "background": "h-[310px] p-12 bg-zinc-100 rounded-[45px] shadow border border-black justify-between items-center flex text-black",
-        "arrow": "./services/ag.svg",
-        "link": "./",
-        "image": "./services/01.svg"
-    },
-    {
-        "id": 2,
-        "name1": "Pay-per-click",
-        "name2": "advertising",
-        "background": "h-[310px] p-12 bg-lime rounded-[45px] shadow border border-black justify-between items-center flex text-black",
-        "arrow": "./services/ag.svg",
-        "link": "./",
-        "image": "./services/02.svg"
-    },
-    {
-        "id": 3,
-        "name1": "Social Media",
-        "name2": "Marketing",
-        "background": "h-[310px] p-12 bg-black rounded-[45px] shadow border border-black justify-between items-center flex text-white",
-        "arrow": "./services/aw.svg",
-        "link": "./",
-        "image": "./services/03.svg"
-    },
-    {
-        "id": 4,
-        "name1": "Email",
-        "name2": "Marketing",
-        "background": "h-[310px] p-12 bg-zinc-100 rounded-[45px] shadow border border-black justify-between items-center flex text-black",
-        "arrow": "./services/ag.svg",
-        "link": "./",
-        "image": "./services/04.svg"
-    },
-    {
-        "id": 5,
-        "name1": "Content",
-        "name2": "Creation",
-        "background": "h-[310px] p-12 bg-lime rounded-[45px] shadow border border-black justify-between items-center flex text-black",
-        "arrow": "./services/ag.svg",
-        "link": "./",
-        "image": "./services/05.svg"
-    },
-    {
-        "id": 6,
-        "name1": "Analytics and",
-        "name2": "Tracking",
-        "background": "h-[310px] p-12 bg-black rounded-[45px] shadow border border-black justify-between items-center flex text-white",
-        "arrow": "./services/aw.svg",
-        "link": "./",
-        "image": "./services/06.svg"
-    }
+  {
+    "id": 1,
+    "name1": "Custom",
+    "name2": "Software Development",
+    "background": "h-[310px] p-12 bg-zinc-100 rounded-[45px] shadow border border-black justify-between items-center flex text-black",
+    "arrow": "./services/ag.svg",
+    "link": "/#projects",
+    "image": "./services/01.svg",
+    "description": "Build innovative software solutions tailored to your business needs"
+  },
+  {
+    "id": 2,
+    "name1": "Mobile",
+    "name2": "App Development",
+    "background": "h-[310px] p-12 bg-lime rounded-[45px] shadow border border-black justify-between items-center flex text-black",
+    "arrow": "./services/ag.svg",
+    "link": "/#projects",
+    "image": "./services/02.svg",
+    "description": "Create engaging mobile apps that drive user engagement and revenue"
+  },
+  {
+    "id": 3,
+    "name1": "Web",
+    "name2": "Development",
+    "background": "h-[310px] p-12 bg-black rounded-[45px] shadow border border-black justify-between items-center flex text-white",
+    "arrow": "./services/aw.svg",
+    "link": "/#projects",
+    "image": "./services/03.svg",
+    "description": "Design and develop custom websites that drive conversions and growth"
+  },
+  {
+    "id": 4,
+    "name1": "IT",
+    "name2": "Consulting",
+    "background": "h-[310px] p-12 bg-zinc-100 rounded-[45px] shadow border border-black justify-between items-center flex text-black",
+    "arrow": "./services/ag.svg",
+    "link": "/#projects",
+    "image": "./services/04.svg",
+    "description": "Get expert IT consulting services to optimize your technology infrastructure"
+  },
+  {
+    "id": 5,
+    "name1": "Quality",
+    "name2": "Assurance",
+    "background": "h-[310px] p-12 bg-lime rounded-[45px] shadow border border-black justify-between items-center flex text-black",
+    "arrow": "./services/ag.svg",
+    "link": "/#projects",
+    "image": "./services/05.svg",
+    "description": "Ensure the quality and reliability of your software solutions with our QA services"
+  },
+  {
+    "id": 6,
+    "name1": "Cloud",
+    "name2": "Services",
+    "background": "h-[310px] p-12 bg-black rounded-[45px] shadow border border-black justify-between items-center flex text-white",
+    "arrow": "./services/aw.svg",
+    "link": "/#projects",
+    "image": "./services/06.svg",
+    "description": "Migrate to the cloud and enjoy scalability, flexibility, and cost savings"
+  }
 ]

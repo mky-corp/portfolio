@@ -49,9 +49,11 @@ import teamData from "./Data/team.json";
                 />
               </div>
             </button>
-            <div class="text-lg font-normal" id={bid} aria-labelledby={hid}>
+            <div class="text-lg font-normal " id={bid} aria-labelledby={hid}>
               <hr class="w-full border border-black mb-6" />
-              <p class="mb-2 text-gray-500 text-sm md:text-lg">{description}</p>
+              <p class="mb-2 text-gray-500 text-sm md:text-lg ">
+                {description}
+              </p>
             </div>
           </div>
         </h2>
@@ -86,7 +88,9 @@ import teamData from "./Data/team.json";
                   </div>
                   <div class="flex-col justify-end items-start inline-flex">
                     <div class="text-lg font-normal">{title}</div>
-                    <div class="text-xl font-medium">{name}</div>
+                    <a href={link} class="text-xl hover:underline font-medium">
+                      {name}
+                    </a>
                   </div>
                 </div>
                 <a

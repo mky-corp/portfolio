@@ -34,16 +34,18 @@ import servicesData from "./Data/services.json";
                 </div>
               </div>
               <a
-                class="justify-start items-center gap-[15px] inline-flex"
+                class="justify-start items-center gap-[15px] inline-flex group"
                 href={link}
               >
                 <div class="w-[41px] h-[41px] relative">
                   <img
-                    class="w-[41px] h-[41px] left-0 top-0 absolute"
+                    class="w-[41px] h-[41px] left-0 top-0 absolute group-hover:-top-1 group-hover:left-2 duration-300 ease-in-out"
                     src={arrow}
                   />
                 </div>
-                <div class="text-xl font-normal leading-7">Learn more</div>
+                <div class="text-xl font-normal leading-7 group-hover:pl-2 duration-300 ">
+                  Learn more
+                </div>
               </a>
             </div>
             <div class="w-[210px] h-[170px] pt-0.5 pb-[1.95px] justify-center items-center flex">
@@ -70,7 +72,7 @@ import servicesData from "./Data/services.json";
           </div>
           <a
             href="https://cal.com/brayanpaucar"
-            class="px-[35px] py-5 bg-zinc-900 rounded-[14px] justify-start items-start gap-2.5 inline-flex"
+            class="px-[35px] py-5 bg-zinc-900 rounded-[14px] justify-start items-start gap-2.5 inline-flex hover:opacity-80 duration-300 transition-all ease-in-out"
           >
             <div class="text-center text-white text-xl font-normal leading-7">
               Get your free consultation

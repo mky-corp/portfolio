@@ -1,67 +1,32 @@
 {
   "team": [
     {
-      "title": "CTO and Software Architect",
-      "name": "Aldair Alvites",
-      "description": "7+ years of experience in project management and team leadership. Strong organizational and communication skills",
-      "profile": "/team/c3.png",
-      "link": "https://brayanpaucar.netlify.app"
-    },
-    {
-      "title": "Senior Software Developer",
-      "name": "Brath Barboza",
-      "description": "5+ years of experience in software development. Proficient in multiple programming languages and software development methodologies",
-      "profile": "/team/c3.png",
-      "link": "/"
-    },
-    {
       "title": "Lead & Software Architect",
       "name": "Brayan Paucar",
-      "description": "10+ years of experience in software development. Expertise in software architecture, design patterns, and agile development",
+      "description": "Over 10 years of experience in software development with a strong focus on software architecture and design patterns. Skilled in leading teams through agile development processes to deliver scalable and efficient solutions.",
       "profile": "/team/c4.png",
-      "link": "/"
+      "link": "https://www.linkedin.com/in/brayanpaucar"
     },
     {
-      "title": "Software Developer",
+      "title": "Software Developer & Marketing",
       "name": "Joan Roca",
-      "description": "5+ years of experience in software development. Proficient in multiple programming languages and software development methodologies",
+      "description": "5+ years of experience in software development and marketing strategies. Adept in various programming languages and capable of integrating technical solutions with marketing initiatives to enhance user engagement.",
       "profile": "/team/c3.png",
-      "link": "/"
+      "link": "https://www.linkedin.com/in/jochizan"
     },
     {
-      "title": "Software Developer",
+      "title": "Software Developer & Analyst",
       "name": "Miguel Requena",
-      "description": "5+ years of experience in software development. Proficient in multiple programming languages and software development methodologies",
+      "description": "5+ years of experience in software development with a strong analytical background. Proficient in multiple programming languages and methodologies, focusing on data-driven decision-making to optimize software performance.",
       "profile": "/team/c3.png",
-      "link": "/"
+      "link": "https://www.linkedin.com/in/miguel-angel-requena-ramos-553b5b264"
     },
     {
-      "title": "Quality Assurance",
-      "name": "Fernando Perez",
-      "description": "5+ years of experience in software development. Proficient in multiple programming languages and software development methodologies",
-      "profile": "/team/c3.png",
-      "link": "/"
-    },
-    {
-      "title": "Data Scientist",
-      "name": "Frank Caysahuana",
-      "description": "5+ years of experience in software development. Proficient in multiple programming languages and software development methodologies",
-      "profile": "/team/c3.png",
-      "link": "/"
-    },
-    {
-      "title": "Software Developer",
-      "name": "Brayan Sanchez",
-      "description": "5+ years of experience in software development. Proficient in multiple programming languages and software development methodologies",
-      "profile": "/team/c3.png",
-      "link": "/"
-    },
-    {
-      "title": "Designer",
+      "title": "Designer & Marketing",
       "name": "Luigi Santana",
-      "description": "5+ years of experience in software development. Proficient in multiple programming languages and software development methodologies",
+      "description": "5+ years of experience in software development combined with design expertise. Proficient in creating user-centric designs and implementing marketing strategies that resonate with target audiences.",
       "profile": "/team/c3.png",
-      "link": "/"
+      "link": "https://www.linkedin.com/in/luigi-santana-esteban-b4b69731a"
     }
   ],
 

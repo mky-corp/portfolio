@@ -23,7 +23,7 @@ import servicesData from "./Data/services.json";
       <!-- card start-->
       {
         servicesData.map(({ background, name1, name2, arrow, link, image }) => (
-          <div class={background}>
+          <div class={` group ${background}`}>
             <div class="flex-col justify-center items-start gap-[93px] inline-flex">
               <div class="flex-col justify-start items-start flex">
                 <div class="px-[7px] bg-lime-300 rounded-[7px] flex-col justify-start items-start gap-2.5 flex">
@@ -34,7 +34,7 @@ import servicesData from "./Data/services.json";
                 </div>
               </div>
               <a
-                class="justify-start items-center gap-[15px] inline-flex group"
+                class="justify-start items-center gap-[15px] inline-flex"
                 href={link}
               >
                 <div class="w-[41px] h-[41px] relative">
@@ -43,7 +43,7 @@ import servicesData from "./Data/services.json";
                     src={arrow}
                   />
                 </div>
-                <div class="text-xl font-normal leading-7 group-hover:pl-2 duration-300 ">
+                <div class="text-xl font-normal leading-7 group-hover:pl-2 duration-300  hover:underline">
                   Learn more
                 </div>
               </a>
@@ -72,7 +72,7 @@ import servicesData from "./Data/services.json";
           </div>
           <a
             href="https://cal.com/brayanpaucar"
-            class="px-[35px] py-5 bg-zinc-900 rounded-[14px] justify-start items-start gap-2.5 inline-flex hover:opacity-80 duration-300 transition-all ease-in-out"
+            class="px-[35px] py-5 bg-zinc-800 rounded-[14px] justify-start items-start gap-2.5 inline-flex hover:bg-zinc-900 duration-300 transition-all ease-in-out"
           >
             <div class="text-center text-white text-xl font-normal leading-7">
               Get your free consultation

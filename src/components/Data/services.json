@@ -1,18 +1,19 @@
 [
   {
     "id": 1,
-    "name1": "Custom",
-    "name2": "Software Development",
-    "background": "h-[310px] p-12 bg-zinc-100 rounded-[45px] shadow border border-black justify-between items-center flex text-black",
-    "arrow": "./services/ag.svg",
+    "name1": "Web",
+    "name2": "Development",
+    "background": "h-[310px] p-12 bg-black rounded-[45px] shadow border border-black justify-between items-center flex text-white",
+    "arrow": "./services/aw.svg",
     "link": "/#projects",
-    "image": "./services/01.svg",
-    "description": "Build innovative software solutions tailored to your business needs"
+    "image": "./services/04.svg",
+    "description": "Design and develop custom websites that drive conversions and growth"
   },
+
   {
     "id": 2,
     "name1": "Mobile",
-    "name2": "App Development",
+    "name2": "Development",
     "background": "h-[310px] p-12 bg-lime rounded-[45px] shadow border border-black justify-between items-center flex text-black",
     "arrow": "./services/ag.svg",
     "link": "/#projects",
@@ -21,23 +22,23 @@
   },
   {
     "id": 3,
-    "name1": "Web",
+    "name1": "Desktop",
     "name2": "Development",
+    "background": "h-[310px] p-12 bg-zinc-100 rounded-[45px] shadow border border-black justify-between items-center flex text-black",
+    "arrow": "./services/ag.svg",
+    "link": "/#projects",
+    "image": "./services/01.svg",
+    "description": "Build innovative software solutions tailored to your business needs"
+  },
+  {
+    "id": 4,
+    "name1": "Cloud",
+    "name2": "Services",
     "background": "h-[310px] p-12 bg-black rounded-[45px] shadow border border-black justify-between items-center flex text-white",
     "arrow": "./services/aw.svg",
     "link": "/#projects",
     "image": "./services/03.svg",
-    "description": "Design and develop custom websites that drive conversions and growth"
-  },
-  {
-    "id": 4,
-    "name1": "IT",
-    "name2": "Consulting",
-    "background": "h-[310px] p-12 bg-zinc-100 rounded-[45px] shadow border border-black justify-between items-center flex text-black",
-    "arrow": "./services/ag.svg",
-    "link": "/#projects",
-    "image": "./services/04.svg",
-    "description": "Get expert IT consulting services to optimize your technology infrastructure"
+    "description": "Migrate to the cloud and enjoy scalability, flexibility, and cost savings"
   },
   {
     "id": 5,
@@ -51,12 +52,12 @@
   },
   {
     "id": 6,
-    "name1": "Cloud",
-    "name2": "Services",
-    "background": "h-[310px] p-12 bg-black rounded-[45px] shadow border border-black justify-between items-center flex text-white",
-    "arrow": "./services/aw.svg",
+    "name1": "IT",
+    "name2": "Consulting",
+    "background": "h-[310px] p-12 bg-zinc-100 rounded-[45px] shadow border border-black justify-between items-center flex text-black",
+    "arrow": "./services/ag.svg",
     "link": "/#projects",
     "image": "./services/06.svg",
-    "description": "Migrate to the cloud and enjoy scalability, flexibility, and cost savings"
+    "description": "Get expert IT consulting services to optimize your technology infrastructure"
   }
 ]

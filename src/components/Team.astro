@@ -81,20 +81,20 @@ import teamData from "./Data/team.json";
         teamData.team.map(({ title, description, name, link, profile }) => (
           <div class="h-[331px] px-[35px] py-10 bg-white rounded-[45px] shadow border border-zinc-900 flex-col justify-start items-start gap-2.5 inline-flex text-black">
             <div class="flex-col justify-start items-start gap-7 flex">
-              <div class="self-stretch justify-start items-start inline-flex">
+              <div class="self-stretch justify-start items-start flex lg:flex-row flex-col">
                 <div class="grow shrink basis-0 justify-start items-center gap-8 flex">
                   <div class="h-[102.82px] left-0 top-0 relative">
-                    <img src={profile} alt={name} />
+                    <img src={profile} height="95" width="95" alt={name} />
                   </div>
                   <div class="flex-col justify-end items-start inline-flex">
-                    <div class="text-lg font-normal">{title}</div>
+                    <div class="lg:text-lg font-normal">{title}</div>
                     <a href={link} class="text-xl hover:underline font-medium">
                       {name}
                     </a>
                   </div>
                 </div>
                 <a
-                  class="top-0 right-0 hover:opacity-80 transition duration-200"
+                  class="top-0 right-0 hover:opacity-80 transition duration-200 hidden lg:block"
                   href={link}
                 >
                   <img src="/team/lng.svg" alt="vector" />

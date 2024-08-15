@@ -3,7 +3,7 @@ import Container from "./Container.astro";
 if (Astro.request.method === "POST") {
   try {
     const GOOGLE_SHEET_URL =
-      "https://script.google.com/macros/s/AKfycbweuPCIjShnvHOJvNA1H1Ap8zq39wjoamCgHZvmrGcISTOdRNUXJyNVWY2nGdTlVmHKew/exec";
+      "https://script.google.com/macros/s/AKfycbzkYdSCYBIaKJcHj2idkuP2vv_lXI9DA8PeemkYsip7xJGp-xSa4W0D9RQ59BRcmezjSw/exec";
     const data = await Astro.request.formData();
     const name = data.get("name");
     const email = data.get("email");
@@ -14,15 +14,19 @@ if (Astro.request.method === "POST") {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        name: name,
-        email: email,
-        message: message,
+        Name: name,
+        Email: email,
+        Message: message,
       }),
     });
     if (sheetResponse.ok) {
       console.log("Successfully sent the message");
     } else {
-      console.error("ERROR", sheetResponse);
+      if (sheetResponse.status === 403) {
+        console.error("ERROR: Forbidden - Check your permissions or URL");
+      } else {
+        console.error("ERROR", sheetResponse);
+      }
     }
   } catch (error) {
     if (error instanceof Error) {
@@ -81,7 +85,7 @@ if (Astro.request.method === "POST") {
           >
         </div>
       </div>
-      <form method="post" class="space-y-8 md:w-full">
+      <form method="POST" class="space-y-8 md:w-full">
         <div>
           <label for="name" class="block mb-2 text-base font-medium text-black"
             >Name</label
@@ -100,7 +104,7 @@ if (Astro.request.method === "POST") {
             >Email</label
           >
           <input
-            type="text"
+            type="email"
             id="email"
             name="email"
             class="block p-3 w-full text-base text-black bg-white rounded-lg border shadow-sm focus:ring-black focus:border-black"

@@ -8,6 +8,13 @@ if (Astro.request.method === "POST") {
     const nombres = data.get("nombres");
     const email = data.get("email");
     const message = data.get("message");
+
+    console.log("Datos capturados:", { nombres, email, message });
+
+    if (!email) {
+      throw new Error("Email no capturado");
+    }
+
     const response = await fetch(GOOGLE_SHEET_URL, {
       method: "POST",
       headers: {
@@ -19,15 +26,23 @@ if (Astro.request.method === "POST") {
         Message: message,
       }),
     });
+
     if (!response.ok) {
-      console.error("ERROR", response);
+      const errorText = await response.text();
+      console.error("Error en la respuesta:", response.status, errorText);
+      throw new Error("Error en la respuesta");
     } else {
-      console.log("Successfully sent the message");
+      const contentType = response.headers.get("Content-Type");
+      let responseData;
+      if (contentType && contentType.includes("application/json")) {
+        responseData = await response.json();
+      } else {
+        responseData = await response.text();
+      }
+      console.log("Respuesta exitosa:", responseData);
     }
   } catch (error) {
-    if (error instanceof Error) {
-      console.error(error.message);
-    }
+    console.error("Error capturado:", error);
   }
 }
 ---

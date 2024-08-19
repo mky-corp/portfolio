@@ -3,30 +3,26 @@ import Container from "./Container.astro";
 if (Astro.request.method === "POST") {
   try {
     const GOOGLE_SHEET_URL =
-      "https://script.google.com/macros/s/AKfycbzkYdSCYBIaKJcHj2idkuP2vv_lXI9DA8PeemkYsip7xJGp-xSa4W0D9RQ59BRcmezjSw/exec";
+      "https://script.google.com/macros/s/AKfycbxuwII46aMnWAcZF40qqLpe-Ur6-2W6rDPvnkqbr8ppcSXm5V3ASgaQ84WMgeM5823syw/exec";
     const data = await Astro.request.formData();
-    const name = data.get("name");
+    const nombres = data.get("nombres");
     const email = data.get("email");
     const message = data.get("message");
-    const sheetResponse = await fetch(GOOGLE_SHEET_URL, {
+    const response = await fetch(GOOGLE_SHEET_URL, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        Name: name,
+        Nombres: nombres,
         Email: email,
         Message: message,
       }),
     });
-    if (sheetResponse.ok) {
-      console.log("Successfully sent the message");
+    if (!response.ok) {
+      console.error("ERROR", response);
     } else {
-      if (sheetResponse.status === 403) {
-        console.error("ERROR: Forbidden - Check your permissions or URL");
-      } else {
-        console.error("ERROR", sheetResponse);
-      }
+      console.log("Successfully sent the message");
     }
   } catch (error) {
     if (error instanceof Error) {
@@ -87,15 +83,16 @@ if (Astro.request.method === "POST") {
       </div>
       <form method="POST" class="space-y-8 md:w-full">
         <div>
-          <label for="name" class="block mb-2 text-base font-medium text-black"
-            >Name</label
+          <label
+            for="nombres"
+            class="block mb-2 text-base font-medium text-black">Name</label
           >
           <input
             type="text"
-            id="name"
-            name="name"
+            id="nombres"
+            name="nombres"
             class="shadow-sm bg-white border text-black text-base rounded-lg focus:ring-black focus:border-black block w-full p-2.5"
-            placeholder="Name"
+            placeholder="Jhon Doe"
             required
           />
         </div>
@@ -108,7 +105,7 @@ if (Astro.request.method === "POST") {
             id="email"
             name="email"
             class="block p-3 w-full text-base text-black bg-white rounded-lg border shadow-sm focus:ring-black focus:border-black"
-            placeholder="Email"
+            placeholder="jhondoe@gmail.com"
             required
           />
         </div>
@@ -123,7 +120,7 @@ if (Astro.request.method === "POST") {
             name="message"
             rows="6"
             class="block p-2.5 w-full text-base text-black bg-white rounded-lg shadow-sm border focus:ring-black focus:border-black"
-            placeholder="Message"></textarea>
+            placeholder="Type here your message"></textarea>
         </div>
         <button
           type="submit"

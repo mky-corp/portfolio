@@ -1,62 +1,63 @@
 [
   {
     "id": 1,
-    "name1": "Desarrollo",
-    "name2": "Web",
+    "name1": "Web",
+    "name2": "Development",
     "background": "h-[310px] p-12 bg-black rounded-[45px] shadow border border-black justify-between items-center flex text-white",
     "arrow": "./services/aw.svg",
-    "link": "/#proyectos",
+    "link": "/#projects",
     "image": "./services/04.svg",
-    "description": "Diseñamos y desarrollamos sitios web personalizados que impulsan conversiones y crecimiento"
+    "description": "Design and develop custom websites that drive conversions and growth"
   },
+
   {
     "id": 2,
-    "name1": "Desarrollo",
-    "name2": "Móvil",
+    "name1": "Mobile",
+    "name2": "Development",
     "background": "h-[310px] p-12 bg-lime rounded-[45px] shadow border border-black justify-between items-center flex text-black",
     "arrow": "./services/ag.svg",
-    "link": "/#proyectos",
+    "link": "/#projects",
     "image": "./services/02.svg",
-    "description": "Creamos aplicaciones móviles atractivas que impulsan la participación del usuario y el ingreso"
+    "description": "Create engaging mobile apps that drive user engagement and revenue"
   },
   {
     "id": 3,
-    "name1": "Desarrollo",
-    "name2": "Escritorio",
+    "name1": "Desktop",
+    "name2": "Development",
     "background": "h-[310px] p-12 bg-zinc-100 rounded-[45px] shadow border border-black justify-between items-center flex text-black",
     "arrow": "./services/ag.svg",
-    "link": "/#proyectos",
+    "link": "/#projects",
     "image": "./services/01.svg",
-    "description": "Desarrollamos soluciones de software innovadoras adaptadas a tus necesidades empresariales"
+    "description": "Build innovative software solutions tailored to your business needs"
   },
   {
     "id": 4,
-    "name1": "Computación en la",
-    "name2": "Nube",
+    "name1": "Cloud",
+    "name2": "Services",
     "background": "h-[310px] p-12 bg-black rounded-[45px] shadow border border-black justify-between items-center flex text-white",
     "arrow": "./services/aw.svg",
-    "link": "/#proyectos",
+    "link": "/#projects",
     "image": "./services/03.svg",
-    "description": "Migración a la nube y disfruta de escalabilidad, flexibilidad y ahorros en costos"
+    "description": "Migrate to the cloud and enjoy scalability, flexibility, and cost savings"
   },
   {
     "id": 5,
-    "name1": "Aseguramiento de",
-    "name2": "Calidad",
+    "name1": "Quality",
+    "name2": "Assurance",
     "background": "h-[310px] p-12 bg-lime rounded-[45px] shadow border border-black justify-between items-center flex text-black",
     "arrow": "./services/ag.svg",
-    "link": "/#proyectos",
+    "link": "/#projects",
     "image": "./services/05.svg",
-    "description": "Aseguramos la calidad y confiabilidad de tus soluciones de software con nuestros servicios de garantía de calidad"
+    "description": "Ensure the quality and reliability of your software solutions with our QA services"
   },
   {
     "id": 6,
-    "name1": "Consultoría",
-    "name2": "TI",
+    "name1": "IT",
+    "name2": "Consulting",
     "background": "h-[310px] p-12 bg-zinc-100 rounded-[45px] shadow border border-black justify-between items-center flex text-black",
     "arrow": "./services/ag.svg",
-    "link": "/#proyectos",
+    "link": "/#projects",
     "image": "./services/06.svg",
-    "description": "Obtén asesoría experta en IT para optimizar tu infraestructura de tecnología"
+    "description": "Get expert IT consulting services to optimize your technology infrastructure"
   }
 ]

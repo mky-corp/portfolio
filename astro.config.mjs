@@ -8,11 +8,11 @@ export default defineConfig({
   output: "server",
   adapter: netlify(),
   i18n: {
-    defaultLocale: "en",
-    locales: ["en", "es"],
-    strategy: "prefix_except_default",
-    fallbackLocale: {
-      en: "en",
-    },
+    defaultLocale: "es",
+    locales: ["es", "en"],
+    fallbackLocale: "es",
+    routing: {
+      prefixDefaultLocale: false,
+    }
   },
 });

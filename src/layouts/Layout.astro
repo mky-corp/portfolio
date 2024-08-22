@@ -1,16 +1,20 @@
 ---
 import "../styles/global.css";
 import Navbar from "../components/Navbar.astro";
+import NavbarEn from "../components/en/Navbar.astro";
 import Footer from "../components/Footer.astro";
+import FooterEn from "../components/en/Footer.astro";
+
+const { currentLocale } = Astro;
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang={currentLocale}>
   <head>
     <meta charset="UTF-8" />
     <meta name="description" content="Astro description" />
     <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/svg+xml" href="/logo.png" />
+    <link rel="icon" type="image/svg+xml" href="/logoicon.jpg" />
     <meta name="generator" content={Astro.generator} />
     <title>Grublo - Software development agency</title>
     <meta
@@ -23,9 +27,9 @@ import Footer from "../components/Footer.astro";
     />
   </head>
   <body class="bg-white font-SpaceGrotesk space-y-20">
-    <Navbar />
+    {currentLocale === "en" ? <NavbarEn /> : <Navbar />}
     <slot />
-    <Footer />
+    {currentLocale === "en" ? <FooterEn /> : <Footer />}
     <script
       is:inline
       src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.0/flowbite.min.js"

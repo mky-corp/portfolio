@@ -1,83 +1,82 @@
 {
   "team": [
     {
-      "title": "Lead & Software Architect",
+      "title": "Arquitecto y Arquitecto de Software",
       "name": "Brayan Paucar",
-      "description": "Over 10 years of experience in software development with a strong focus on software architecture and design patterns.",
+      "description": "Más de 10 años de experiencia en desarrollo de software con un enfoque fuerte en la arquitectura y patrones de diseño.",
       "profile": "/team/c4.png",
       "link": "https://www.linkedin.com/in/brayanpaucar"
     },
     {
-      "title": "Software Engineer",
+      "title": "Ingeniero de Software",
       "name": "Miguel Requena",
-      "description": "2+ years focused on software development, with solid knowledge in FullStack development.",
+      "description": "2+ años enfocados en desarrollo de software, con conocimientos sólidos en desarrollo FullStack.",
       "profile": "/team/c3.png",
       "link": "https://www.linkedin.com/in/miguelangelrequenaramos"
     },
     {
-      "title": "Software Developer & Marketing",
+      "title": "Desarrollador de Software y Marketing",
       "name": "Joan Roca",
-      "description": "5+ years in software development and marketing, skilled in programming and integrating tech solutions to boost user engagement.",
+      "description": "5+ años en desarrollo de software y marketing, experto en programación y integración de soluciones tecnológicas para impulsar la participación del usuario.",
       "profile": "/team/c2.png",
       "link": "https://www.linkedin.com/in/jochizan"
     },
     {
-      "title": "Design Engineer & Marketing",
+      "title": "Ingeniero de Diseño y Marketing",
       "name": "Luigi Santana",
-      "description": "Specialist in software design, skilled in creating user-centric designs and implementing effective marketing strategies.",
+      "description": "Especialista en diseño de software, experto en crear diseños centrados en el usuario y implementar estrategias de marketing efectivas.",
       "profile": "/team/c1.png",
       "link": "https://www.linkedin.com/in/luigi-santana-esteban-b4b69731a"
     }
   ],
-
   "process": [
     {
       "id": "01",
       "hid": "accordion-open-heading-1",
       "bid": "accordion-open-body-1",
       "target": "#accordion-open-body-1",
-      "title": "Requirements Gathering",
-      "description": "We will work closely with you to understand your software development needs and requirements, ensuring that our solutions meet your business goals and objectives."
+      "title": "Recolección de Requisitos",
+      "description": "Trabajaremos estrechamente contigo para entender tus necesidades y requisitos de desarrollo de software, asegurando que nuestras soluciones cumplan con tus objetivos y metas empresariales."
     },
     {
       "id": "02",
       "hid": "accordion-open-heading-2",
       "bid": "accordion-open-body-2",
       "target": "#accordion-open-body-2",
-      "title": "Design",
-      "description": "Our experienced design engineers will deliver a custom software solution that meets your business needs. The design phase emphasizes prototyping and feedback to ensure the final product aligns with your vision."
+      "title": "Diseño",
+      "description": "Nuestros ingenieros de diseño experimentados te entregarán una solución de software personalizada que cumpla con tus necesidades empresariales. La fase de diseño enfatiza la prototipificación y retroalimentación para asegurarse de que el producto final se alinee con tu visión."
     },
     {
       "id": "03",
       "hid": "accordion-open-heading-3",
       "bid": "accordion-open-body-3",
       "target": "#accordion-open-body-3",
-      "title": "Development",
-      "description": "Our skilled development team will implement the software solution with the right tech stack that fits perfectly to your requirements, ensuring it is robust, scalable, and tailored to your needs."
+      "title": "Desarrollo",
+      "description": "Nuestro equipo de desarrollo experimentado implementará la solución de software con la pila tecnológica adecuada que se adapte perfectamente a tus requisitos, asegurando que sea robusto, escalable y personalizado para tus necesidades."
     },
     {
       "id": "04",
       "hid": "accordion-open-heading-4",
       "bid": "accordion-open-body-4",
       "target": "#accordion-open-body-4",
-      "title": "Quality Assurance",
-      "description": "We will thoroughly test and quality assure our software solutions to ensure that they meet the highest standards of quality and reliability."
+      "title": "Garantía de Calidad",
+      "description": "Verificaremos exhaustivamente y garantizaremos nuestras soluciones de software para asegurarnos de que cumplan con los estándares más altos de calidad y confiabilidad."
     },
     {
       "id": "05",
       "hid": "accordion-open-heading-5",
       "bid": "accordion-open-body-5",
       "target": "#accordion-open-body-5",
-      "title": "Deployment & Monitoring",
-      "description": "Our team will implement and oversee the deployment of your software solutions, ensuring they are tailored to your business requirements and continuously monitored for optimal performance."
+      "title": "Implementación y Monitoreo",
+      "description": "Nuestro equipo implementará y supervisará la implementación de tus soluciones de software, asegurando que se adapten a tus requisitos empresariales y se monitoren continuamente para optimizar el rendimiento."
     },
     {
       "id": "06",
       "hid": "accordion-open-heading-6",
       "bid": "accordion-open-body-6",
       "target": "#accordion-open-body-6",
-      "title": "Support & Maintenance",
-      "description": "We offer comprehensive support and maintenance services, providing you with the assistance needed to keep your software solutions running smoothly and effectively aligned with your evolving business goals."
+      "title": "Soporte y Mantenimiento",
+      "description": "Ofrecemos servicios de soporte y mantenimiento comprehensivos, proporcionándote la asistencia necesaria para mantener tus soluciones de software funcionando suavemente y alineadas con tus objetivos empresariales en constante evolución."
     }
   ]
 }

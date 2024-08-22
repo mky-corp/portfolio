@@ -1,0 +1,83 @@
+{
+  "team": [
+    {
+      "title": "Lead & Software Architect",
+      "name": "Brayan Paucar",
+      "description": "Over 10 years of experience in software development with a strong focus on software architecture and design patterns.",
+      "profile": "/team/c4.png",
+      "link": "https://www.linkedin.com/in/brayanpaucar"
+    },
+    {
+      "title": "Software Engineer",
+      "name": "Miguel Requena",
+      "description": "2+ years focused on software development, with solid knowledge in FullStack development.",
+      "profile": "/team/c3.png",
+      "link": "https://www.linkedin.com/in/miguelangelrequenaramos"
+    },
+    {
+      "title": "Software Developer & Marketing",
+      "name": "Joan Roca",
+      "description": "5+ years in software development and marketing, skilled in programming and integrating tech solutions to boost user engagement.",
+      "profile": "/team/c2.png",
+      "link": "https://www.linkedin.com/in/jochizan"
+    },
+    {
+      "title": "Design Engineer & Marketing",
+      "name": "Luigi Santana",
+      "description": "Specialist in software design, skilled in creating user-centric designs and implementing effective marketing strategies.",
+      "profile": "/team/c1.png",
+      "link": "https://www.linkedin.com/in/luigi-santana-esteban-b4b69731a"
+    }
+  ],
+
+  "process": [
+    {
+      "id": "01",
+      "hid": "accordion-open-heading-1",
+      "bid": "accordion-open-body-1",
+      "target": "#accordion-open-body-1",
+      "title": "Requirements Gathering",
+      "description": "We will work closely with you to understand your software development needs and requirements, ensuring that our solutions meet your business goals and objectives."
+    },
+    {
+      "id": "02",
+      "hid": "accordion-open-heading-2",
+      "bid": "accordion-open-body-2",
+      "target": "#accordion-open-body-2",
+      "title": "Design",
+      "description": "Our experienced design engineers will deliver a custom software solution that meets your business needs. The design phase emphasizes prototyping and feedback to ensure the final product aligns with your vision."
+    },
+    {
+      "id": "03",
+      "hid": "accordion-open-heading-3",
+      "bid": "accordion-open-body-3",
+      "target": "#accordion-open-body-3",
+      "title": "Development",
+      "description": "Our skilled development team will implement the software solution with the right tech stack that fits perfectly to your requirements, ensuring it is robust, scalable, and tailored to your needs."
+    },
+    {
+      "id": "04",
+      "hid": "accordion-open-heading-4",
+      "bid": "accordion-open-body-4",
+      "target": "#accordion-open-body-4",
+      "title": "Quality Assurance",
+      "description": "We will thoroughly test and quality assure our software solutions to ensure that they meet the highest standards of quality and reliability."
+    },
+    {
+      "id": "05",
+      "hid": "accordion-open-heading-5",
+      "bid": "accordion-open-body-5",
+      "target": "#accordion-open-body-5",
+      "title": "Deployment & Monitoring",
+      "description": "Our team will implement and oversee the deployment of your software solutions, ensuring they are tailored to your business requirements and continuously monitored for optimal performance."
+    },
+    {
+      "id": "06",
+      "hid": "accordion-open-heading-6",
+      "bid": "accordion-open-body-6",
+      "target": "#accordion-open-body-6",
+      "title": "Support & Maintenance",
+      "description": "We offer comprehensive support and maintenance services, providing you with the assistance needed to keep your software solutions running smoothly and effectively aligned with your evolving business goals."
+    }
+  ]
+}

@@ -9,16 +9,14 @@ const navLinks = [
 ---
 
 <nav
-  class="w-full top-0 left-0 z-50 fixed backdrop-blur-3xl bg-white/80 rounded-b-2xl"
+  class="w-full top-0 left-0 z-50 fixed backdrop-blur-xl bg-white/80 rounded-b-2xl"
 >
   <Container>
     <div class="flex flex-wrap items-center justify-between mx-auto py-4">
       <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
-        <img src="/Logo.png" class="lg:h-20 h-16 invert" alt="Logo" />
+        <img src="/logo.png" class="lg:h-20 h-16 invert" alt="Logo" />
       </a>
-      <a href="/en" class="flex items-center space-x-3 rtl:space-x-reverse">
-        <img src="/en.svg" class="lg:h-7 w-7 " alt="Logo" />
-      </a>
+
       <button
         data-collapse-toggle="navbar-default"
         type="button"
@@ -43,9 +41,10 @@ const navLinks = [
             d="M1 1h15M1 7h15M1 13h15"></path>
         </svg>
       </button>
+
       <div class="hidden w-full md:block md:w-auto" id="navbar-default">
         <ul
-          class="font-medium flex items-center flex-col p-4 md:p-0 mt-4 border rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0"
+          class="font-medium flex flex-col p-4 md:p-0 mt-4 border rounded-lg md:flex-row md:space-x-8 md:mt-0 md:border-0"
         >
           {
             navLinks.map((link) => (
@@ -59,6 +58,7 @@ const navLinks = [
               </li>
             ))
           }
+
           <li>
             <a
               class="md:hidden px-9 py-5 rounded-2xl border border-zinc-900 bg-white hover:bg-black text-black hover:text-white inline-flex"
@@ -70,8 +70,19 @@ const navLinks = [
               </h2>
             </a>
           </li>
+          <li>
+            <a
+              href="/en"
+              title="Translate to English"
+              class="items-center flex hover:opacity-70 lg:hidden space-x-3 rtl:space-x-reverse gap-3 my-4"
+            >
+              <img src="/translate.svg" class="h-5 w-5" alt="Logo" /> Translate to
+              English
+            </a>
+          </li>
         </ul>
       </div>
+
       <div class="hidden w-full md:block md:w-auto" id="navbar-default">
         <a
           class="px-9 py-5 rounded-2xl border border-zinc-900 bg-white duration-300 transition-all ease-in-out hover:bg-black text-black hover:text-white inline-flex"
@@ -81,7 +92,13 @@ const navLinks = [
             Agendar una reunión
           </h2>
         </a>
-      </div>
+      </div><a
+        href="/en"
+        title="View in English"
+        class="items-center hidden hover:opacity-70 lg:flex space-x-3 rtl:space-x-reverse"
+      >
+        <img src="/translate.svg" class="lg:h-7 w-7" alt="Logo" />
+      </a>
     </div>
   </Container>
 </nav>
